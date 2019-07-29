@@ -128,7 +128,7 @@ a.nav:hover {
 
 div.imagecontainer{
   height: 82vh;
-  width: 93vw; /*this used to be 90*/
+  width: 93vw; /*this used to be 93*/
   margin:auto;
   display: flex;
   align-items: center;
@@ -136,9 +136,15 @@ div.imagecontainer{
   overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  div.imagecontainer{
+    margin-top:100px;
+  }
+}
+
 img.profilepic{
-  width: inherit; /*this used to be auto*/
-  height: auto; /*this used to be inherit*/
+  width: auto; /*this used to be auto*/
+  height: inherit; /*this used to be inherit*/
 }
 
 div.maintextdiv{
