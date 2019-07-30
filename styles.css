@@ -128,7 +128,7 @@ a.nav:hover {
 
 div.imagecontainer{
   height: 82vh;
-  width: 93vw; /*this used to be 93*/
+  width: 93vw;
   margin:auto;
   display: flex;
   align-items: center;
@@ -138,13 +138,13 @@ div.imagecontainer{
 
 @media only screen and (max-width: 600px) {
   div.imagecontainer{
-    margin-top:100px;
+    margin-top:130px;
   }
 }
 
 img.profilepic{
-  width: auto; /*this used to be auto*/
-  height: inherit; /*this used to be inherit*/
+  height: inherit;
+  width:auto;
 }
 
 div.maintextdiv{
@@ -169,7 +169,7 @@ width: 100%;
 
 @media only screen and (max-width: 600px) {
   div.maintextdiv{
-    margin-top:100px;
+    margin-top:130px;
   }
 }
 
@@ -210,7 +210,7 @@ div.gallerycontainer{
 
 @media only screen and (max-width: 600px) {
   div.gallerycontainer{
-    margin-top:100px;
+    margin-top:130px;
   }
 }
 
