@@ -138,7 +138,7 @@ div.imagecontainer{
 
 @media only screen and (max-width: 600px) {
   div.imagecontainer{
-    margin-top:100px;
+    margin-top:80px;
   }
 }
 
@@ -169,7 +169,7 @@ width: 100%;
 
 @media only screen and (max-width: 600px) {
   div.maintextdiv{
-    margin-top:100px;
+    margin-top:80px;
   }
 }
 
@@ -210,7 +210,7 @@ div.gallerycontainer{
 
 @media only screen and (max-width: 600px) {
   div.gallerycontainer{
-    margin-top:100px;
+    margin-top:80px;
   }
 }
 
