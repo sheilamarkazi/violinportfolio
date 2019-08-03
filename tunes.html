@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sheila Markazi</title>
     <link rel="stylesheet" href="styles.css">
-
-    var agent = navigator.userAgent;
-var isIphone = ((agent.indexOf('iPhone') != -1) || (agent.indexOf('iPod') != -1)) ;
-
-$videoTag = "";
-if(isIphone()) {
-    $videoTag = '<video controls autoplay preload="metadata">';
-} else {
-    $videoTag = '<video controls preload="metadata">';
-}
   </head>
 
   <body>
@@ -41,7 +31,7 @@ if(isIphone()) {
 
 <div class="videogallerycontainer">
   <div class="videoborder">
-    <video controls preload="metadata">
+    <video controls preload="metadata" autoplay>
       <source src="tunes/2018_07_12_SoldiersJoy_BentonFlippen.mp4" type="video/mp4">
     To view this video, please update your broswer.</video>
     <h2 class="videogallery">Soldier's Joy</h2>
