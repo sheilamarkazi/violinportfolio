@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sheila Markazi</title>
     <link rel="stylesheet" href="styles.css">
+
+    var agent = navigator.userAgent;
+var isIphone = ((agent.indexOf('iPhone') != -1) || (agent.indexOf('iPod') != -1)) ;
+
+$videoTag = "";
+if(isIphone()) {
+    $videoTag = '<video controls autoplay preload="metadata">';
+} else {
+    $videoTag = '<video controls preload="metadata">';
+}
   </head>
 
   <body>
