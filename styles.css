@@ -224,6 +224,17 @@ div.galleryselectborder{
   width:35vw;
   padding:7px;
   margin:9px;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+} /*https://css-tricks.com/almanac/properties/t/transition/ https://www.w3.org/TR/css-transitions-1/#animatable-properties https://www.w3schools.com/css/css3_transitions.asp*/
+
+div.galleryselectborder:hover{
+  background-color: white;
+  opacity: 0.7;
+  transition-property: ;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
 }
 
 h2.gallery{
@@ -234,10 +245,6 @@ h2.gallery{
 
 a.gallery{
   text-decoration: none;
-}
-
-a.gallery:hover {
-  font-color: green;
 }
 
    /*why aren't the photos centered exactly within the gallery container? make the width smaller to be able to really see it. answer: add justify-content:center to gallerycontainer*/
@@ -325,7 +332,7 @@ div.videoborder{
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   div.videoborder{
     min-width: 100%;
   }
