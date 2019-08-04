@@ -150,7 +150,7 @@ img.profilepic{
 div.maintextdiv{
   border:1px solid #adadad;
   padding:3vw;
-  margin:5vw;
+  margin:0 5vw 0 5vw;
   background-color:white;
   opacity:0.70;
   filter:alpha(opacity=70);
