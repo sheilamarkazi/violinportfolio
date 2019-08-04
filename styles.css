@@ -158,14 +158,7 @@ div.maintextdiv{
   flex-direction: column;
   align-items: center;
 }
-/* maybe i will get rid of this (about, lutherie pages) because while it makes the outline hu the text horizontally, which i like, it puts a weird space below the div, which i can't understand. before publishing, make sure to get rid of it in the html pages.
-div.divcentermaintext{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-width: 100%;
-}
-*/
+
 
 @media only screen and (max-width: 600px) {
   div.maintextdiv{
@@ -206,13 +199,12 @@ div.gallerycontainer{
   padding:3vw;
   margin:5vw;
   justify-content: center;
+align-items: center;
+flex-direction: row;
+box-sizing: border-box;
+  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  div.gallerycontainer{
-    margin-top:75px;
-  }
-}
 
 div.galleryselectborder{
   flex-direction: column;
