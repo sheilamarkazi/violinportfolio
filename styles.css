@@ -23,10 +23,12 @@ body{
   height: 100%;
   /*display: flex;
   flex-direction: column; sticky footer*/
+
   }
 
 main{
   /*flex: 1 0 auto; sticky footer*/
+
 }
 
 h1.name{
@@ -42,12 +44,12 @@ h1.name{
     font-size:170%;
   }
 }
-
+/*
 @media only screen and (max-width: 730px) {
   h1.name{
     font-size:140%;
   }
-}
+}*/
 
 
 h2 {
@@ -58,28 +60,38 @@ h2 {
   color:#292929;
 }
 
-
-
-.navflexcontainer {
+nav.container{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
   align-items: center;
-  height: 14vh;
-  width: auto;
-  margin-left:8vw;
-  margin-right:8vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  line-height: 200%;
 }
 
-@media only screen and (max-width: 600px) {
-  .navflexcontainer{
-    display:block;
+ul.navflexcontainer{
+  display:flex;
+  width: 100vw;
+  justify-content:space-around;
+}
+
+@media only screen and (max-width: 575px) {
+  nav.container{
     text-align: center;
-    padding: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 200%;
+    padding-bottom: 1px;
+  }
+  ul.navflexcontainer{
+    display: block;
   }
 }
-
-
 
 li {
   list-style-type: none;
@@ -87,8 +99,10 @@ li {
 }
 
 li.nav{
-font-size:105%
-} /*does this do anything? I don't remember*/
+font-size:105%;
+
+}
+
 
 a.nav {
   text-decoration: none;
@@ -105,16 +119,7 @@ a.name {
   box-sizing: border-box;
   border: 1px solid transparent;
   color:#292929;
-  padding:0px;
-  color:#292929;
 }
-
-/*@media only screen and (max-width: 800px) {
-  a.nav{
-    padding:10px 10px 3px 10px;
-  }
-}*/
-
 
 @media only screen and (max-width: 730px) {
   a.nav{
@@ -136,11 +141,6 @@ div.imagecontainer{
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-  div.imagecontainer{
-    margin-top:75px;
-  }
-}
 
 img.profilepic{
   height: inherit;
@@ -150,7 +150,7 @@ img.profilepic{
 div.maintextdiv{
   border:1px solid #adadad;
   padding:3vw;
-  margin:5vw;
+  margin:0 5vw 0 5vw;
   background-color:white;
   opacity:0.70;
   filter:alpha(opacity=70);
@@ -158,26 +158,8 @@ div.maintextdiv{
   flex-direction: column;
   align-items: center;
 }
-/* maybe i will get rid of this (about, lutherie pages) because while it makes the outline hu the text horizontally, which i like, it puts a weird space below the div, which i can't understand. before publishing, make sure to get rid of it in the html pages.
-div.divcentermaintext{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-width: 100%;
-}
-*/
 
-@media only screen and (max-width: 600px) {
-  div.maintextdiv{
-    margin-top:75px;
-  }
-}
 
-@media only screen and (max-width: 325px) {
-  div.maintextdiv{
-    margin-top:105px;
-  }
-}
 
 h1.maincontentheader{
   padding-bottom: .2rem;
@@ -206,13 +188,12 @@ div.gallerycontainer{
   padding:3vw;
   margin:5vw;
   justify-content: center;
+align-items: center;
+flex-direction: row;
+box-sizing: border-box;
+  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  div.gallerycontainer{
-    margin-top:75px;
-  }
-}
 
 div.galleryselectborder{
   flex-direction: column;
@@ -252,15 +233,6 @@ a.gallery{
   text-decoration: none;
 }
 
-   /*why aren't the photos centered exactly within the gallery container? make the width smaller to be able to really see it. answer: add justify-content:center to gallerycontainer*/
-  /*flex-direction: column;
-  /*width:calc(80vw/3); /*I no longer remember where the 80 came from*/
-/*  height:calc(80vw/3); /*this 80 comes from making a square per the width*/
-  /*display:inline-flex;
-  border:5px solid #adadad;
-  align-items: center;
-  justify-content: center;
-}*/
 
 img.galleryselect{
   min-width: calc(100%/3); /*not sure how this works exactly, check it out. also, what does the "min" do?*/
