@@ -71,12 +71,15 @@ nav.container{
   padding-top: 13px;
   padding-bottom: 5px;
   line-height: 200%;
+  margin:2vw 0vw 0vw 0vw;
+
 }
 
 ul.navflexcontainer{
   display:flex;
   width: 100vw;
   justify-content:space-around;
+  margin:0vw 5vw 0vw 5vw;
 }
 
 @media only screen and (max-width: 575px) {
@@ -134,7 +137,7 @@ a.nav:hover {
 div.imagecontainer{
   height: 82vh;
   width: 93vw;
-  margin:auto;
+  margin:2vw auto 0vw auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,12 +148,13 @@ div.imagecontainer{
 img.profilepic{
   height: inherit;
   width:auto;
+
 }
 
 div.maintextdiv{
   border:1px solid #adadad;
   padding:3vw;
-  margin:0 5vw 0 5vw;
+  margin:2vw 5vw 0 5vw;
   background-color:white;
   opacity:0.70;
   filter:alpha(opacity=70);
