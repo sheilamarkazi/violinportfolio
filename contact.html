@@ -29,6 +29,9 @@
     <input type="submit" name="submit" value="Submit" class="form-submit">
   </form>
 
+  <!-- Here we use an empty element to display our future success/error message. Give it an id for easy targeting in the JS -->
+  <p id="confirmation"></p>
+  
   <script type="text/javascript">
     // Adds an event listener to our form. When the form is submitted, it will send data to our Lambda function, which in turn, will send us an email.
     document.getElementById('serverless-contact-form').addEventListener('submit', sendDataToLambda);
