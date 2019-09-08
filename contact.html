@@ -56,9 +56,14 @@
       });
       // Call the Fetch API to make our request
       fetch(lambdaRequest)
-        // This is where you can handle errors. This is just an example, so we won't cover that.
-        .then(response => console.log(response))
-        .catch(err => console.log(err));
+        .then(response => {
+          // If the request succeeds, put confirmation text into our element:
+          confirmation.innerText = "Thanks for your message! We'll be in touch soon.";
+        })
+        .catch(err => {
+          // If there's an error, ask them to try again
+          confirmation.innerText = "Oops! Something went wrong, please try again.";
+        });
     }
   </script>
 
