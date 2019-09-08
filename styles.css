@@ -361,7 +361,39 @@ input.shortinput{
   padding:0.5rem;
 }
 
+input.form-email{
+  width:100%;
+  height:2rem;
+  box-sizing: border-box; /* box-sizing property allows you to include the padding and border in an element's total width and height */
+  border:0.09rem solid grey;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-family:"Montserrat";
+  padding:0.5rem;
+}
+
+input.form-subject{
+  width:100%;
+  height:2rem;
+  box-sizing: border-box; /* box-sizing property allows you to include the padding and border in an element's total width and height */
+  border:0.09rem solid grey;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-family:"Montserrat";
+  padding:0.5rem;
+}
+
 textarea.longinput{
+  width:100%;
+  height:6rem;
+  box-sizing: border-box;
+  border:0.09rem solid grey;
+  font-size: 0.9rem;
+  font-family:"Montserrat";
+  padding:0.5rem;
+}
+
+textarea.form-message{
   width:100%;
   height:6rem;
   box-sizing: border-box;

@@ -22,12 +22,31 @@
       </ul>
     </nav>
 
-    <form id="serverless-contact-form">
-    <input type="text" name="email" placeholder="Email Address" class="form-email">
-    <input type="text" name="subject" placeholder="Subject" class="form-subject">
-    <textarea rows="5" cols="40" name="message" placeholder="Your message here..." class="form-message"></textarea>
-    <input type="submit" name="submit" value="Submit" class="form-submit">
-  </form>
+    <div class="maintextdiv">
+      <div class="maincontentcontainer">
+        <div class="formcontainer">
+          <form id="serverless-contact-form">
+            <h1 class="maincontentheader">I'd Love to Hear From You</h1>
+            <fieldset>
+  <input type="text" name="email" placeholder="Email Address" class="form-email">
+  </fieldset>
+    <fieldset>
+  <input type="text" name="subject" placeholder="Subject" class="form-subject">
+  </fieldset>
+  <fieldset>
+  <textarea rows="5" cols="40" name="message" placeholder="Your message here..." class="form-message"></textarea>
+  </fieldset>
+  <fieldset>
+    <div class="submitwrapper">
+
+  <input type="submit" name="submit" value="Submit" class="submitbutton">
+  </div>
+  </fieldset>
+
+</form>
+</div>
+</div>
+</div>
 
   <!-- Here we use an empty element to display our future success/error message. Give it an id for easy targeting in the JS -->
   <p id="confirmation"></p>
@@ -70,65 +89,6 @@
     }
   </script>
 
-  <div class="maintextdiv">
-    <div class="maincontentcontainer">
-      <div class="formcontainer">
-        <form id="contact" action="" method="post"> <!--i don't know what this is-->
-          <h1 class="maincontentheader">I'd Love to Hear From You</h1>
-          <fieldset>
-            <input class="shortinput" placeholder="Your Name" type="text" required>
-          </fieldset>
-          <fieldset>
-            <input class="shortinput" placeholder="Your E-mail" type="email" required>
-          </fieldset>
-          <fieldset>
-            <input class="shortinput" placeholder="Your Phone Number" type="tel">
-          </fieldset>
-          <fieldset>
-            <textarea class="longinput" placeholder="Your Message" type="text"></textarea>
-          </fieldset>
-          <fieldset>
-          <div class="submitwrapper">
-            <input class="submitbutton" type="submit" name="submit">
-          </div>
-          </fieldset>
-
-        </form>
-      </div>
-    </div>
-  </div>
-<!--
-    <div class="formcontainer">
-      <form action="action-page.php" method="post">
-
-        <p>
-        <div><label for="fname">First Name</label></div>
-        <div class="field"><input type="text" id="fname" name="fname" required></div>
-        </p>
-
-        <p>
-        <div><label for="fname">Last Name</label></div>
-        <div class="field"><input type="text" id="lname" name="lname"></div>
-        </p>
-
-        <p>
-        <div><label for="fname">E-Mail</label></div>
-        <div class="field"><input type="text" id="email" name="email" required></div>
-        </p>
-
-        <p>
-        <div><label for="message">Message</label></div>
-        <div class="field"><textarea name="message" required></textarea></div>
-        </p>
-
-        <p>
-        <input type="submit" name="submit">
-        </p>
-
-
-      </form>
-    </div>
-    -->
 
 </main>
 
