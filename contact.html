@@ -31,7 +31,7 @@
 
   <!-- Here we use an empty element to display our future success/error message. Give it an id for easy targeting in the JS -->
   <p id="confirmation"></p>
-  
+
   <script type="text/javascript">
     // Adds an event listener to our form. When the form is submitted, it will send data to our Lambda function, which in turn, will send us an email.
     document.getElementById('serverless-contact-form').addEventListener('submit', sendDataToLambda);
@@ -54,7 +54,7 @@
       var lambdaRequest = new Request(endpoint, {
         method: 'POST',
         // Quick note: 'no-cors' mode is for development on localhost only!
-        //mode: 'no-cors',
+        mode: 'no-cors',
         body: JSON.stringify(body)
       });
       // Call the Fetch API to make our request
