@@ -138,7 +138,12 @@ div.imagecontainer{
   justify-content: center;
 background-color: none;
 width: inherit;
+position: relative;
+overflow:hidden;
+
 }
+
+
 
 div.smallercontainer{
   width: inherit;
@@ -154,8 +159,7 @@ p.image{
   font-style: ;
 line-height: 1.2rem;
   position: absolute;
-color:rgba(41, 41, 41,0.9); /*41, 41, 41*/
-/*width: 60%;*/
+color:rgba(41, 41, 41,0.9);
 text-align: left;
 font-size:100%;
 background: rgba(252,250,243, 0.4);
@@ -167,12 +171,12 @@ margin-top:5%;
 border-radius: 0px;
 font-weight:regular;
 }
-
 span{
   font-size:130%;
   font-weight: ;
 
 }
+
 
 
 div.textwrapper{
