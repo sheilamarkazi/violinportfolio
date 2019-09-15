@@ -191,6 +191,7 @@ img.profilepic{
   max-width: 90vw;
   margin:0vw auto 0vw auto;
   display: block;
+  overflow: hidden;
 /*height: inherit;
   width:auto;*/
 }
