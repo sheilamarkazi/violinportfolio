@@ -129,19 +129,49 @@ a.nav:hover {
 
 
 div.imagecontainer{
-  height: 82vh;
+  /*height: 82vh;
   width: 93vw;
-  margin:2vw auto 0vw auto;
+  margin:2vw auto 0vw auto;*/
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+background-color: none;
+width: inherit;
 }
 
+div.smallercontainer{
+  width: inherit;
+  position: relative;
+background-color: none;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+h2.image{
+  position: absolute;
+color:white;
+background-color: beige;
+width: 100%;
+text-align: left;
+
+}
+
+div.textwrapper{
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding-left: 20%;
+
+}
 
 img.profilepic{
-  height: inherit;
-  width:auto;
+  height: 82vh;
+  width: auto;
+  margin:2vw auto 0vw auto;
+  display: block;
+/*height: inherit;
+  width:auto;*/
 }
 
 div.maintextdiv{
