@@ -187,6 +187,7 @@ img.profilepic{
   display: block;
 /*height: inherit;
   width:auto;*/
+  overflow:hidden;
 }
 
 div.maintextdiv{
