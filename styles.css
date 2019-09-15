@@ -176,14 +176,7 @@ span{
 
 }
 
-@media only screen and (max-width: 575px) {
-  div.textwrapper{
-display:none;
-}
-p.image{
-  display:none;
-}
-}
+
 
 div.textwrapper{
   display: block;
@@ -195,6 +188,7 @@ img.profilepic{
   max-height: 75vh;
   width: auto;
   max-width: 90vw;
+  height:auto;
   margin:0vw auto 0vw auto;
   display: block;
 /*height: inherit;
