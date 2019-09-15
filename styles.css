@@ -151,7 +151,6 @@ div.smallercontainer{
 background-color: none;
 display: inline-flex;
 justify-content: center;
-overflow:hidden;
 
 }
 
@@ -177,7 +176,14 @@ span{
 
 }
 
-
+@media only screen and (max-width: 575px) {
+  div.textwrapper{
+display:none;
+}
+p.image{
+  display:none;
+}
+}
 
 div.textwrapper{
   display: block;
@@ -191,7 +197,6 @@ img.profilepic{
   max-width: 90vw;
   margin:0vw auto 0vw auto;
   display: block;
-  overflow: hidden;
 /*height: inherit;
   width:auto;*/
 }
