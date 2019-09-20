@@ -41,6 +41,10 @@ h1.name{
 @media only screen and (max-width: 675px) {
   h1.name{
     font-size:120%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top:0.4rem;
+    padding-bottom: .1rem;
   }
 }
 
@@ -83,6 +87,7 @@ ul.navflexcontainer{
     padding-right: 10px;
     line-height: 200%;
     padding-bottom: 1px;
+
   }
   ul.navflexcontainer{
     display: block;
