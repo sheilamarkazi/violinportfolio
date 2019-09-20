@@ -195,6 +195,7 @@ img.profilepic{
   /*display: block;*/
 /*height: inherit;
   width:auto;*/
+align-self: center; /*well, I don't know how this works but it is really important! otherwise pic doesn't stretch correctly in mobile. https://stackoverflow.com/questions/47414813/image-height-auto-doesnt-work-on-chrome
 }
 
 div.maintextdiv{
