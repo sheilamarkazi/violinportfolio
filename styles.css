@@ -160,19 +160,21 @@ color:rgba(255,255,255,0.9);
 font-size:3vw;
 /*background: rgba(4, 3, 1, 0.7);*/
 letter-spacing: 0.3rem;
-line-height: 3rem;
-line-height: 3rem;
+line-height: 5rem;
 font-family: 'Lato', sans-serif;
 text-align: center;
-margin: 35% auto ;
+margin: 30% auto ;
 width: 100%;
 overflow:hidden;
-
+font-weight:normal;
 }
 
 hr{
   margin:auto;
-  width: 65%;
+  width: 71%;
+  line-height: 0.5px;
+  border-top: rgba(255,255,255,0.7);
+  border-right: rgba(255,255,255,0.7);
 }
 
 
@@ -195,7 +197,7 @@ img.profilepic{
   /*display: block;*/
 /*height: inherit;
   width:auto;*/
-align-self: center; /*well, I don't know how this works but it is really important! otherwise pic doesn't stretch correctly in mobile. https://stackoverflow.com/questions/47414813/image-height-auto-doesnt-work-on-chrome
+align-self: center; /*well, I don't know how this works but it is really important! otherwise pic doesn't stretch correctly in mobile. https://stackoverflow.com/questions/47414813/image-height-auto-doesnt-work-on-chrome*/
 }
 
 div.maintextdiv{
