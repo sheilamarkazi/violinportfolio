@@ -130,15 +130,15 @@ a.nav:hover {
 
 
 div.imagecontainer{
-  /*height: 82vh;
+  height: 82vh;
   width: 93vw;
-  margin:2vw auto 0vw auto;*/
+  /*margin:2vw auto 0vw auto;*/
   display: flex;
   align-items: center;
   justify-content: center;
 background-color: ;
-width: inherit;
-height: auto;
+/*width: inherit;
+height: auto;*/
 position: relative;
 overflow:hidden;
 
