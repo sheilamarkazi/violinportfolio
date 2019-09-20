@@ -136,7 +136,7 @@ div.imagecontainer{
   display: flex;
   align-items: center;
   justify-content: center;
-background-color:blue ;
+background-color: ;
 /*width: inherit;
 height: auto;*/
 position: relative;
@@ -191,10 +191,11 @@ div.textwrapper{
 }
 
 img.profilepic{
-  /*max-height: 75vh;
-  width: auto; test*/
-  width: 90px;
-  height:50px;
+  max-height: 75vh;
+  width: auto;
+  max-width: 90vw;
+  height:inherit;
+  margin:0vw auto 0vw auto;
   /*display: block;*/
 /*height: inherit;
   width:auto;*/
