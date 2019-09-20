@@ -138,6 +138,7 @@ div.imagecontainer{
   justify-content: center;
 background-color: none;
 width: inherit;
+height: auto;
 position: relative;
 overflow:hidden;
 
