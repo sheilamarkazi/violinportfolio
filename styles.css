@@ -148,6 +148,7 @@ overflow:hidden;
 
 div.smallercontainer{
   width: inherit;
+  height: auto;
   position: relative;
 background-color: none;
 display: inline-flex;
