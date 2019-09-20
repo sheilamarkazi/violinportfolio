@@ -41,8 +41,8 @@ h1.name{
 @media only screen and (max-width: 675px) {
   h1.name{
     font-size:120%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #292929;
+    border-bottom: 1px solid #292929;
     padding-top:0.4rem;
     padding-bottom: .1rem;
   }
