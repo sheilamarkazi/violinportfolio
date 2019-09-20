@@ -137,8 +137,8 @@ div.imagecontainer{
   align-items: center;
   justify-content: center;
 background-color: ;
-width: inherit;
-height: auto;
+/*width: inherit;
+height: auto;*/
 position: relative;
 overflow:hidden;
 
@@ -148,10 +148,10 @@ overflow:hidden;
 
 div.smallercontainer{
   width: inherit;
-  height: auto;
   position: relative;
 background-color: none;
 display: inline-flex;
+overflow:hidden;
 
 }
 
@@ -168,6 +168,7 @@ font-family: 'Lato', sans-serif;
 text-align: center;
 margin: 35% auto ;
 width: 100%;
+overflow:hidden;
 
 }
 
@@ -185,6 +186,7 @@ div.textwrapper{
   left: 0%;
   width: 45%;
   height: 100%;
+  overflow:hidden;
 
 }
 
@@ -197,6 +199,8 @@ img.profilepic{
   /*display: block;*/
 /*height: inherit;
   width:auto;*/
+  overflow:hidden;
+
 }
 
 div.maintextdiv{
