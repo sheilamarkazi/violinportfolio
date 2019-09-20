@@ -141,7 +141,7 @@ background-color: ;
 height: auto;*/
 position: relative;
 overflow:hidden;
-
+align-self: center;
 }
 
 
@@ -152,12 +152,12 @@ div.smallercontainer{
 background-color: none;
 display: inline-flex;
 overflow:hidden;
-
+align-self: center;
 }
 
 h1.image{
 line-height: 1.2rem;
-  /*position: absolute;test*/
+  position: absolute;
 color:rgba(255,255,255,0.9);
 font-size:3vw;
 /*background: rgba(4, 3, 1, 0.7);*/
@@ -181,7 +181,7 @@ hr{
 div.textwrapper{
   background: rgba(4, 3, 1, 0.7);
   display: block;
-  /*position: absolute;test*/
+  position: absolute;
   top: 0%;
   left: 0%;
   width: 45%;
@@ -197,7 +197,7 @@ img.profilepic{
   /*display: block;*/
 /*height: inherit;
   width:auto;*/
-
+align-self: center;
 }
 
 div.maintextdiv{
