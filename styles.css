@@ -62,10 +62,11 @@ nav.container{
 }
 
 ul.navflexcontainer{
-  display:flex;
+  display:inline-flex;
   width: 100vw;
   justify-content:space-around;
   margin:0vw 5vw 0vw 5vw;
+  align-items: center;
 }
 
 @media only screen and (max-width: 575px) {
