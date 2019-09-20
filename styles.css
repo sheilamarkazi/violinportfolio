@@ -192,9 +192,9 @@ div.textwrapper{
 
 img.profilepic{
   max-height: 75vh;
-  width: auto;
+  width: inherit;
   max-width: 90vw;
-  height:inherit;
+  height:auto;
   margin:0vw auto 0vw auto;
   /*display: block;*/
 /*height: inherit;
