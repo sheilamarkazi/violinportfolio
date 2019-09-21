@@ -92,6 +92,12 @@ ul.navflexcontainer{
   ul.navflexcontainer{
     display: block;
   }
+
+  img.profilepic {
+    object-fit:cover;
+    width:50vw;
+    height:auto;
+  }
 }
 
 li {
@@ -186,30 +192,7 @@ top: 50%;
 left: 50%;
 transform: translateX(-50%) translateY(-50%); /*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block/25799339#25799339*/
 }
-/*
-@media only screen and (max-width: 900px) {
-  h1.image{
-    margin: 25% auto ;
-  }
-}
 
-@media only screen and (max-width: 750px) {
-  h1.image{
-    margin: 20% auto ;
-  }
-}
-
-@media only screen and (max-width: 615px) {
-  h1.image{
-    margin: 15% auto ;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  h1.image{
-    margin: 10% auto ;
-  }
-}*/
 
 hr{
   margin:auto;
@@ -301,9 +284,16 @@ div.galleryselectborder{
   align-items: center;
   justify-content: center;
   text-align: center; /*so that the second line that appears when the screen is small is centered*/
-  width:35vw;
+  /*width:35vw;
   padding:7px;
-  margin:9px;
+  margin:9px;*/
+  min-width: calc(100%/3);
+  max-width: 200px;
+  height:auto;
+  text-align: center;
+  padding:0.3vw;
+  box-sizing: border-box;
+  margin-bottom:1em;
 }
 
 div.lutheriegalleryimage{
