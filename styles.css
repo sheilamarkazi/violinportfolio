@@ -284,9 +284,16 @@ div.galleryselectborder{
   align-items: center;
   justify-content: center;
   text-align: center; /*so that the second line that appears when the screen is small is centered*/
-  width:35vw;
+  /*width:35vw;
   padding:7px;
-  margin:9px;
+  margin:9px;*/
+  min-width: calc(100%/3);
+  max-width: 200px;
+  height:auto;
+  text-align: center;
+  padding:0.3vw;
+  box-sizing: border-box;
+  margin-bottom:1em;
 }
 
 div.lutheriegalleryimage{
