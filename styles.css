@@ -280,7 +280,7 @@ box-sizing: border-box;
 div.galleryselectborder{
   flex-direction: column;
   display:inline-flex;
-  /*border:1px solid #adadad;*/
+  border:1px solid #adadad;
   align-items: center;
   justify-content: center;
   text-align: center; /*so that the second line that appears when the screen is small is centered*/
