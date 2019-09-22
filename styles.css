@@ -269,19 +269,19 @@ div.gallerycontainer{
 
 div.galleryselectborder{
   border:1px solid #adadad;
-  min-width: calc(94%/3);
+  min-width: calc(97%/3);
   max-width: 200px;
   height:auto;
   text-align: center;
   padding:0.5%;
   box-sizing: border-box;
-  margin:1%;
+  margin:0.5%;
   margin-bottom:1em;
 }
 
 @media only screen and (max-width: 730px) {
   div.galleryselectborder{
-    min-width: calc(96%/2);
+    min-width: calc(98%/2);
 
 
   }
@@ -289,7 +289,7 @@ div.galleryselectborder{
 
 @media only screen and (max-width: 450px) {
   div.galleryselectborder{
-    min-width: 98%;
+    min-width: 99%;
   }
 }
 
