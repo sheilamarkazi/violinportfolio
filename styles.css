@@ -281,7 +281,7 @@ div.galleryselectborder{
 
 @media only screen and (max-width: 730px) {
   div.galleryselectborder{
-    min-width: calc(94%/2);
+    min-width: calc(96%/2);
 
 
   }
@@ -289,7 +289,7 @@ div.galleryselectborder{
 
 @media only screen and (max-width: 450px) {
   div.galleryselectborder{
-    min-width: 94%;
+    min-width: 98%;
   }
 }
 
