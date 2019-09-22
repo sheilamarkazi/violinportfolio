@@ -118,8 +118,13 @@ a.nav {
   color:#292929;
   padding-bottom:3px;
   color:#292929;
+  font-size: 115%;
 }
 
+@media only screen and (max-width: 730px) {
+  a.nav{
+font-size: 105%;  }
+}
 
 a.name {
   text-decoration: none;
