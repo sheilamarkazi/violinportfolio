@@ -97,7 +97,7 @@ ul.navflexcontainer{
     display: block;
   }
 
-  img.profilepic {
+  img.profilepic /*whats this*/{
     object-fit:cover;
     width:50vw;
     height:auto;
@@ -232,6 +232,13 @@ img.profilepic{
 /*height: inherit;
   width:auto;*/
 align-self: center; /*well, I don't know how this works but it is really important! otherwise pic doesn't stretch correctly in mobile. https://stackoverflow.com/questions/47414813/image-height-auto-doesnt-work-on-chrome*/
+}
+
+@media only screen and (max-width: 575px) {
+  img.profilepic{
+    width:100vw;
+    height:auto;
+  }
 }
 
 div.maintextdiv{
