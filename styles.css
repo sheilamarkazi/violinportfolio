@@ -545,6 +545,7 @@ div.submitwrapper{
     display:flex;
     justify-content: space-between;
     align-items: center;
+  background-color: white;
 }
 
 img.icon{
