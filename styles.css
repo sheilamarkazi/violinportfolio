@@ -258,6 +258,13 @@ div.maintextdiv{
   box-shadow:  3px 3px 10px 3px rgba(0,0,0,.5) /*#74716f*/;
 }
 
+@media only screen and (max-width: 575px) {
+  div.maintextdiv{
+
+    margin:5vw 5vw 0 5vw;
+  }
+}
+
 
 
 h1.maincontentheader{
