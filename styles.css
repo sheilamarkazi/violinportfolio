@@ -67,12 +67,11 @@ nav.container{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 13px;
-  padding-bottom: 5px;
   line-height: 200%;
   margin:0vw 0vw 0vw 0vw;
   padding-bottom: 2vw;
   padding-top:2vw;
-background-color:white;f4c0bb
+background-color:white;/*f4c0bb*/
 }
 
 ul.navflexcontainer{
@@ -243,7 +242,7 @@ align-self: center; /*well, I don't know how this works but it is really importa
 
 div.maintextdiv{
   /*border:1px solid #adadad;*/
-  padding:3vw;
+  padding:2rem;
   margin:5vw 13vw 0 13vw;
   background-color:white;
   opacity:0.70;
@@ -279,7 +278,7 @@ p.maincontent{
 , sans-serif;
 font-size: 90%;
 font-weight:100;
-  padding:0.1vw;
+  padding:0vh;
   line-height: 1.7;
 
 }
