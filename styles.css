@@ -10,7 +10,6 @@
 
 html {
   font-size: 16px;
-  /*height: 100%; sticky footer*/
 
 } /*I'm setting the font size in the root element (<html>) so that I can use units of rem later. Although I'm pretty sure 16px is the default, but I'm not sure if that is true for all situations.*/
 
@@ -202,12 +201,23 @@ transform: translateX(-50%) translateY(-50%); /*https://stackoverflow.com/questi
 }
 
 
-hr{
+hr.profilepic{
   margin:auto;
   width: 75%;
   line-height: 0.5px;
   border-top: rgba(255,255,255,0.7);
   border-right: rgba(255,255,255,0.7);
+}
+
+hr.paragraph{
+  width: 15%;
+  color:#dc886c;
+  height: 2px;
+  margin-top:1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #333;
+  background-image: linear-gradient(to right, white, #292929, white);
+  border:#dc886c;
 }
 
 
